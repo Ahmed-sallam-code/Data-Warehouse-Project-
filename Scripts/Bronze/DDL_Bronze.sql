@@ -2,7 +2,7 @@
 =================================================================
 DDL SCRIPT FOR THE BRONZE LAYER 
 -----------------------------------------------------------------
-THIS SCRIPT GENERATES THE TABLES IN THE SILVER SCHEMA. RUNNING 
+THIS SCRIPT GENERATES THE TABLES IN THE Bronze SCHEMA. RUNNING 
 THE SCRIPT DROPS ALL THE TABLES ALREADY EXSISTING IN IT. 
 Run this script to re-define the DDL structure of 'bronze' Tables
 =================================================================
