@@ -132,7 +132,7 @@ The presentation layer consists of three core views designed for BI and analytic
 | :--- | :--- | :--- |
 | `customer_key` | `INT` | Surrogate key uniquely identifying each customer record in the dimension table. |
 | `customer_id` | `INT` | Unique numerical identifier assigned to each customer. |
-| `customer_number` | `NVARCHAR(50)` | Alphanumeric identifier representing the customer for tracking and referencing. |
+| `customer_num` | `NVARCHAR(50)` | Alphanumeric identifier representing the customer for tracking and referencing. |
 | `first_name` | `NVARCHAR(50)` | Customer's first name as recorded in the system. |
 | `last_name` | `NVARCHAR(50)` | Customer's last name or family name. |
 | `country` | `NVARCHAR(50)` | Country of residence for the customer (e.g., `'Australia'`). |
@@ -148,7 +148,7 @@ The presentation layer consists of three core views designed for BI and analytic
 | :--- | :--- | :--- |
 | `product_key` | `INT` | Surrogate key uniquely identifying each product record in the dimension table. |
 | `product_id` | `INT` | Unique identifier assigned to the product for internal tracking. |
-| `product_number` | `NVARCHAR(50)` | Structured alphanumeric code used for product categorization and inventory. |
+| `product_num` | `NVARCHAR(50)` | Structured alphanumeric code used for product categorization and inventory. |
 | `product_name` | `NVARCHAR(50)` | Descriptive name of the product including type, color, and size. |
 | `category_id` | `NVARCHAR(50)` | Unique identifier linking the product to its high-level classification. |
 | `category` | `NVARCHAR(50)` | Broader product classification (e.g., `'Bikes'`, `'Components'`). |
