@@ -36,7 +36,7 @@ Build a modern data warehouse in **SQL Server** to consolidate sales data from m
 
 ## 🏗️ Data Architecture & Data Flow
 
-![Data Flow Diagram](docs/Data%20Flow.png)
+![Data Flow Diagram](Docs/Data%20Flow.png)
 
 The warehouse implements a three-tier **Medallion Architecture** to enforce a clean separation of concerns between raw ingestion, data cleansing, and business logic:
 
@@ -53,7 +53,7 @@ The warehouse implements a three-tier **Medallion Architecture** to enforce a cl
 
 ## 🔗 Source Integration Model
 
-![Integration Model Diagram](docs/Integration%20Model.png)
+![Integration Model Diagram](Docs/Integration%20Model.png)
 
 The diagram above illustrates how CRM and ERP entities relate and join together across systems to form the unified Gold layer dimensions and fact table:
 
